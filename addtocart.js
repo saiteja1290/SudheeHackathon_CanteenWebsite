@@ -7,7 +7,7 @@ const product = [
     },
     {
         id: 1,
-        image: 'Dosa.jpg',
+        image: 'dosa.jpg',
         title: 'Dosa',
         price: 60,
     },
