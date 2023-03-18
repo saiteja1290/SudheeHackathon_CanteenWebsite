@@ -1,0 +1,16 @@
+pass : 156F7595955E7F7074A0221F8710A92051B5
+token : 04a4eb0d-c9bc-40b3-9153-2a4f1e242f50 
+
+function sendEmail(argument) {
+    Email.send({
+        SecureToken: "04a4eb0d-c9bc-40b3-9153-2a4f1e242f50",
+        To: 'saitejapalegarthuli@gmail.com',
+        From: "saitejapalegarthuli4@gmail.com",
+        Subject: "This is the subject",
+        Body: "And this is the body"
+    }).then(
+        message => alert(message)
+    );
+}
+
+<input type="button" value="Send Email" onclick="sendEmail()" />
